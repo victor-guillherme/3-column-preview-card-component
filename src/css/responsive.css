@@ -1,0 +1,51 @@
+@media(max-width: 1050px){
+    .painel {
+        width: 80%;
+    }
+}
+
+@media(max-width: 425px){
+    body {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .painel {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2.0rem;
+    }
+
+    .painel .info {
+        display: grid;
+        gap: .5rem;
+        padding: 10%;
+        height: 45.0rem;
+    }
+    
+    .painel .info img {
+        width: 7.0rem; 
+    }
+
+    .painel .info h2 {
+        font-size: 4.0rem;
+    }
+
+    .painel .info p {
+        font-size: 1.5rem;
+    }
+
+    .painel .info .btn {
+        font-size: 1.5rem;
+        height: 40px;
+        width: 140px;
+    }
+
+    .painel .sedans {
+        border-radius: 8px 8px 0 0;
+    }
+
+    .painel .luxury {
+        border-radius: 0 0 8px 8px;
+    }
+}

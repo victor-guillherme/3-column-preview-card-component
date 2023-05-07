@@ -1,0 +1,73 @@
+html {
+    font-size: 62.5%;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    min-height: 100vh;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.painel {
+    display: flex;
+    height: 42.0rem;
+    width: 56%;
+}
+
+.painel .info {
+    height: 100%;
+    display: grid;
+    padding: 20%;
+    gap: 2.0rem;
+    
+}
+
+.painel .info img {
+    width: 5.0rem;
+}
+
+.painel .info .btn {
+    border-style: none;
+    width: 120px;
+    height: 35px;
+    border-radius: 50px;
+    margin-top: 1.5rem;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.painel .sedans {
+    background-color:  hsl(31, 77%, 52%);
+    border-radius: 8px 0px 0px 8px;
+}
+
+.painel .sedans .btn {
+    color:  hsl(31, 77%, 52%);
+}
+
+.painel .sedans h2 {
+    text-transform: uppercase;
+}
+
+.painel .suvs {
+    background-color:  hsl(184, 100%, 22%);
+}
+
+.painel .suvs .btn {
+    color:  hsl(184, 100%, 22%);
+}
+
+.painel .luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 8px 8px 0px;
+}
+
+.painel .luxury .btn {
+    color: hsl(179, 100%, 13%);
+}
